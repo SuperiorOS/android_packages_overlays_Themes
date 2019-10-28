@@ -11,3 +11,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+
+# Overlay ThemePicker to use our ThemeStub
+DEVICE_PACKAGE_OVERLAYS += \
+    packages/overlays/Themes/overlays
+
+PRODUCT_PACKAGES += \
+   AexThemeStub

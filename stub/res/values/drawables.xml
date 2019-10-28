@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="theme_wallpaper_default">@drawable/generic_wall</item>
+    <item type="drawable" name="theme_wallpaper_thumbnail_default">@drawable/generic_wall_thumb</item>
+    <item type="drawable" name="theme_wallpaper_test1">@drawable/generic_wall</item>
+    <item type="drawable" name="theme_wallpaper_thumbnail_test1">@drawable/generic_wall_thumb</item>
+    <item type="drawable" name="theme_wallpaper_test2">@drawable/generic_wall</item>
+    <item type="drawable" name="theme_wallpaper_thumbnail_test2">@drawable/generic_wall_thumb</item>
+</resources>
+
