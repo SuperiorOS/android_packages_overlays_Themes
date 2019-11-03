@@ -19,3 +19,29 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
    AexThemeStub
+
+# Accents
+PRODUCT_PACKAGES += \
+	AmberAccent \
+	BlueAccent \
+	BlueGreyAccent \
+	BrownAccent \
+	CyanAccent \
+	CandyRedAccent \
+	DeepOrangeAccent \
+	DeepPurpleAccent \
+	ExtendedGreenAccent \
+	ElegantGreenAccent \
+	GreyAccent \
+	IndigoAccent \
+	JadeGreenAccent \
+	LightBlueAccent \
+	LightGreenAccent \
+	LimeAccent \
+	OrangeAccent \
+	PaleBlueAccent \
+	PaleRedAccent \
+	PinkAccent \
+	RedAccent \
+	TealAccent \
+	YellowAccent
