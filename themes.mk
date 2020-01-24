@@ -22,29 +22,27 @@ PRODUCT_PACKAGES += \
 
 # Accents
 PRODUCT_PACKAGES += \
-    AmberAccent \
-    BlueAccent \
-    BlueGreyAccent \
-    BrownAccent \
-    CyanAccent \
-    CandyRedAccent \
-    DeepOrangeAccent \
-    DeepPurpleAccent \
-    ExtendedGreenAccent \
-    ElegantGreenAccent \
-    GreyAccent \
-    IndigoAccent \
-    JadeGreenAccent \
-    LightBlueAccent \
-    LightGreenAccent \
-    LimeAccent \
-    OrangeAccent \
-    PaleBlueAccent \
-    PaleRedAccent \
-    PinkAccent \
-    RedAccent \
-    TealAccent \
-    YellowAccent
+    AccentColorAmberOverlay \
+    AccentColorBlueOverlay \
+    AccentColorBlueGreyOverlay \
+    AccentColorBrownOverlay \
+    AccentColorCyanOverlay \
+    AccentColorDeepOrangeOverlay \
+    AccentColorDeepPurpleOverlay \
+    AccentColorGreenOverlay \
+    AccentColorGreyOverlay \
+    AccentColorIndigoOverlay \
+    AccentColorLightBlueOverlay \
+    AccentColorLightGreenOverlay \
+    AccentColorLimeOverlay \
+    AccentColorOrangeOverlay \
+    AccentColorPinkOverlay \
+    AccentColorPurpleOverlay \
+    AccentColorRedOverlay \
+    AccentColorTealOverlay \
+    AccentColorYellowOverlay \
+    AccentColorExtendedGreenOverlay \
+    AccentColorElegantGreenOverlay
 
 # Fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
