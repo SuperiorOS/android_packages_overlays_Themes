@@ -112,6 +112,18 @@ PRODUCT_PACKAGES += \
     IconShapeVesselOverlay \
     IconShapeRoundedHexagonOverlay
 
+# Navbar styles
+PRODUCT_PACKAGES += \
+    NavbarAndroidOverlay \
+    NavbarAsusOverlay \
+    NavbarMotoOverlay \
+    NavbarNexusOverlay \
+    NavbarOldOverlay \
+    NavbarOnePlusOverlay \
+    NavbarOneUiOverlay \
+    NavbarSammyOverlay \
+    NavbarTecnoCamonOverlay
+
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
     BarsSignalOverlay \
