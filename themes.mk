@@ -22,29 +22,29 @@ PRODUCT_PACKAGES += \
 
 # Accents
 PRODUCT_PACKAGES += \
-	AmberAccent \
-	BlueAccent \
-	BlueGreyAccent \
-	BrownAccent \
-	CyanAccent \
-	CandyRedAccent \
-	DeepOrangeAccent \
-	DeepPurpleAccent \
-	ExtendedGreenAccent \
-	ElegantGreenAccent \
-	GreyAccent \
-	IndigoAccent \
-	JadeGreenAccent \
-	LightBlueAccent \
-	LightGreenAccent \
-	LimeAccent \
-	OrangeAccent \
-	PaleBlueAccent \
-	PaleRedAccent \
-	PinkAccent \
-	RedAccent \
-	TealAccent \
-	YellowAccent
+    AmberAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    CandyRedAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    ExtendedGreenAccent \
+    ElegantGreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    JadeGreenAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PaleBlueAccent \
+    PaleRedAccent \
+    PinkAccent \
+    RedAccent \
+    TealAccent \
+    YellowAccent
 
 # Fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
@@ -55,11 +55,11 @@ PRODUCT_COPY_FILES += \
 
 #Font Overalys
 PRODUCT_PACKAGES += \
-	FontArbutusSourceOverlay \
+    FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontGoogleSansOverlay \
-	FontNotoSerifSourceOverlay \
-	FontRubikRubikOverlay \
+    FontNotoSerifSourceOverlay \
+    FontRubikRubikOverlay \
     FontAdamCGinora \
     FontBigNoodle \
     FontBikoHanken \
@@ -67,16 +67,22 @@ PRODUCT_PACKAGES += \
     FontPissel \
     FontReemKufi \
     FontRoboto \
-	FontAclonicaSourceOverlay \
-	FontAmaranteSourceOverlay \
-	FontBariolSourceOverlay \
-	FontCagliostroSourceOverlay \
-	FontComfortaaSourceOverlay \
-	FontComicSansSourceOverlay \
-	FontCoolstorySourceOverlay \
-	FontLGSmartGothicSourceOverlay \
-	FontOneplusSlateSource \
-	FontRosemarySourceOverlay \
-	FontSamsungOneSourceOverlay \
-	FontSonySketchSourceOverlay \
-	FontSurferSourceOverlay
+    FontAclonicaSourceOverlay \
+    FontAmaranteSourceOverlay \
+    FontBariolSourceOverlay \
+    FontCagliostroSourceOverlay \
+    FontComfortaaSourceOverlay \
+    FontComicSansSourceOverlay \
+    FontCoolstorySourceOverlay \
+    FontLGSmartGothicSourceOverlay \
+    FontOneplusSlateSource \
+    FontRosemarySourceOverlay \
+    FontSamsungOneSourceOverlay \
+    FontSonySketchSourceOverlay \
+    FontSurferSourceOverlay
+
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylindricalOverlay \
+    IconShapeStretchedOverlay
