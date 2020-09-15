@@ -18,23 +18,17 @@ PRODUCT_PACKAGES += \
     AccentColorBlueOverlay \
     AccentColorBlueGreyOverlay \
     AccentColorBrownOverlay \
-    AccentColorCinnamonOverlay \
     AccentColorCyanOverlay \
     AccentColorDeepOrangeOverlay \
     AccentColorDeepPurpleOverlay \
-    AccentColorGreenOverlay \
     AccentColorGreyOverlay \
     AccentColorIndigoOverlay \
     AccentColorLightBlueOverlay \
     AccentColorLightGreenOverlay \
     AccentColorLimeOverlay \
-    AccentColorOceanOverlay \
     AccentColorOrangeOverlay \
-    AccentColorOrchidOverlay \
     AccentColorPinkOverlay \
-    AccentColorPurpleOverlay \
     AccentColorRedOverlay \
-    AccentColorSpaceOverlay \
     AccentColorTealOverlay \
     AccentColorYellowOverlay \
     AccentColorExtendedGreenOverlay \
@@ -52,7 +46,6 @@ PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontGoogleSansOverlay \
-    FontNotoSerifSourceOverlay \
     FontRubikRubikOverlay \
     FontAdamCGinora \
     FontBigNoodle \
@@ -80,12 +73,3 @@ PRODUCT_PACKAGES += \
     IconShapeCloudyOverlay \
     IconShapeCylindricalOverlay \
     IconShapeStretchedOverlay
-
-# UI Styles
-PRODUCT_PACKAGES += \
-    SystemBlackThemeOverlay \
-    SettingsBlackThemeOverlay \
-    SystemUIBlackThemeOverlay \
-    SystemExtendedThemeOverlay \
-    SettingsExtendedThemeOverlay \
-    SystemUIExtendedThemeOverlay
