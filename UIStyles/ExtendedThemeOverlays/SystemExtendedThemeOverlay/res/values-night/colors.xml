@@ -17,17 +17,23 @@
 
 <resources>
 
-    <color name="primary_device_default_settings">#ff242038</color>
-    <color name="primary_dark_device_default_settings">#ff242038</color>
-    <color name="secondary_device_default_settings">#FF38344A</color>
-    <color name="background_floating_material_dark">#ff242038</color>
-    <color name="background_floating_device_default_dark">#ff242038</color>
-    <color name="primary_material_dark">#ff242038</color>
-    <color name="primary_device_default_dark">#ff242038</color>
+    <color name="primary_device_default_dark">#FF242038</color>
+    <color name="secondary_device_default_dark">#FF38344A</color>
+    <color name="tertiary_device_default_dark">#FF2b283b</color>
+	
+    <color name="primary_material_dark">@color/primary_device_default_dark</color>
+    <color name="primary_material_settings">@color/primary_device_default_dark</color>
+    <color name="primary_dark_material_dark">@color/primary_device_default_dark</color>
+    <color name="primary_dark_material_settings">@color/primary_device_default_dark</color>
+    <color name="primary_dark_device_default_dark">@color/primary_device_default_dark</color>
+    <color name="primary_dark_device_default_settings">@color/primary_device_default_dark</color>
 
-    <color name="background_material_dark">#ff242038</color>
-    <color name="primary_material_settings">#ff242038</color>
-    <color name="primary_dark_device_default_dark">#ff242038</color>
-    <color name="primary_dark_material_dark">#ff242038</color>
-    <color name="primary_dark_material_settings">#ff242038</color>
+    <color name="primary_device_default_settings">@color/primary_device_default_dark</color>
+    <color name="secondary_device_default_settings">@color/secondary_device_default_dark</color>
+    <color name="tertiary_device_default_settings">@color/tertiary_device_default_dark</color>
+
+    <color name="background_floating_device_default_dark">@color/primary_device_default_dark</color>
+    <color name="background_floating_material_dark">@color/primary_device_default_dark</color>
+    <color name="background_material_dark">@color/primary_device_default_dark</color>
+
 </resources>

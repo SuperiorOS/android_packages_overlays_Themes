@@ -73,3 +73,9 @@ PRODUCT_PACKAGES += \
     IconShapeCloudyOverlay \
     IconShapeCylindricalOverlay \
     IconShapeStretchedOverlay
+
+# Themes
+PRODUCT_PACKAGES += \
+    SystemBlackThemeOverlay \
+    SystemExtendedThemeOverlay \
+    SystemElegantThemeOverlay

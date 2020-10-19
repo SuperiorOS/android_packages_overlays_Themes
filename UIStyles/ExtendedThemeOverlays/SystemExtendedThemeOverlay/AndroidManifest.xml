@@ -20,7 +20,7 @@
     package="com.android.system.theme.extended"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:targetPackage="android" android:priority="1"/>
+    <overlay android:targetPackage="android" android:category="android.theme.customization.theme_style" android:priority="1"/>
 
     <application android:label="@string/system_overlay_extended" android:hasCode="false"/>
 </manifest>
