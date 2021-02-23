@@ -90,5 +90,12 @@ PRODUCT_PACKAGES += \
     HighRounded \
     ExtremeRounded
 
+# Switch styles
+PRODUCT_PACKAGES += \
+    SwitchAOSP \
+    SwitchTelegram \
+    SwitchMD2 \
+    SwitchOOS
+
 # Plugins
 -include packages/apps/PotatoPlugins/plugins.mk
