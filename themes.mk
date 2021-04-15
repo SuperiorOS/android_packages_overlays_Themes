@@ -79,3 +79,6 @@ PRODUCT_PACKAGES += \
     SystemBlackThemeOverlay \
     SystemExtendedThemeOverlay \
     SystemElegantThemeOverlay
+
+# Plugins
+-include packages/apps/PotatoPlugins/plugins.mk
