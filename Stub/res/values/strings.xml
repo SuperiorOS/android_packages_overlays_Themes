@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2019, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+
+	<string name="app_name">AospExtended Themes</string>
+
+	<!-- Black Theme -->
+	<string name="theme_name_black">Black</string>
+	<string name="theme_title_black">@string/theme_name_black</string>
+	<string name="theme_overlay_color_black">com.android.theme.color.deeppurple</string>
+	<string name="theme_overlay_font_black">com.android.theme.font.roboto</string>
+	<string name="theme_overlay_primary_black">com.android.system.theme.black</string>
+	<string name="theme_overlay_icon_android_black">com.android.theme.icon_pack.rounded.android</string>
+	<string name="theme_overlay_icon_launcher_black">com.android.theme.icon_pack.rounded.launcher</string> 
+	<string name="theme_overlay_icon_settings_black">com.android.theme.icon_pack.rounded.settings</string>
+	<string name="theme_overlay_icon_sysui_black">com.android.theme.icon_pack.rounded.systemui</string>
+	<string name="theme_overlay_shape_black">com.android.theme.icon.roundedrect</string>
+
+	<!-- Elegant Theme -->
+	<string name="theme_name_elegant">Elegant</string>
+	<string name="theme_title_elegant">@string/theme_name_elegant</string>
+	<string name="theme_overlay_color_elegant">com.android.theme.color.elegantgreen</string>
+	<string name="theme_overlay_font_elegant">com.android.theme.font.oneplusslate</string>
+	<string name="theme_overlay_primary_elegant">com.android.system.theme.elegant</string>
+	<string name="theme_overlay_icon_android_elegant">com.android.theme.icon_pack.kai.android</string>
+	<string name="theme_overlay_icon_launcher_elegant">com.android.theme.icon_pack.kai.launcher</string> 
+	<string name="theme_overlay_icon_settings_elegant">com.android.theme.icon_pack.kai.settings</string>
+	<string name="theme_overlay_icon_sysui_elegant">com.android.theme.icon_pack.kai.systemui</string>
+	<string name="theme_overlay_shape_elegant">com.android.theme.icon.stretched</string>
+
+	<!-- Extended Theme -->
+	<string name="theme_name_extended">Extended</string>
+	<string name="theme_title_extended">@string/theme_name_extended</string>
+	<string name="theme_overlay_color_extended">com.android.theme.color.extendedgreen</string>
+	<string name="theme_overlay_font_extended">com.android.theme.font.pissel</string>
+	<string name="theme_overlay_primary_extended">com.android.system.theme.extended</string>
+	<string name="theme_overlay_icon_android_extended">com.android.theme.icon_pack.sam.android</string>
+	<string name="theme_overlay_icon_launcher_extended">com.android.theme.icon_pack.sam.launcher</string> 
+	<string name="theme_overlay_icon_settings_extended">com.android.theme.icon_pack.sam.settings</string>
+	<string name="theme_overlay_icon_sysui_extended">com.android.theme.icon_pack.sam.systemui</string>
+	<string name="theme_overlay_shape_extended">com.android.theme.icon.pebble</string>
+</resources>
