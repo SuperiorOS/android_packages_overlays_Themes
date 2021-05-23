@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="system_overlay_black">Black Theme</string>
+    <string name="android_overlay_extended">Extended Theme</string>
 
 </resources>
 
