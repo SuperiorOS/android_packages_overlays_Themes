@@ -93,7 +93,10 @@ PRODUCT_PACKAGES += \
 # Switch styles
 PRODUCT_PACKAGES += \
     SwitchAOSP \
+    SwitchAndroid12 \
+    SwitchContained \
     SwitchTelegram \
+    SwitchRetro \
     SwitchMD2 \
     SwitchOOS
 
