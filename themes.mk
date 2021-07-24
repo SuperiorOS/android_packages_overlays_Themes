@@ -81,5 +81,14 @@ PRODUCT_PACKAGES += \
     SystemExtendedThemeOverlay \
     SystemElegantThemeOverlay
 
+# Rounded Styles
+PRODUCT_PACKAGES += \
+    StockRounded \
+    NoneRounded \
+    SlightRounded \
+    MediumRounded \
+    HighRounded \
+    ExtremeRounded
+
 # Plugins
 -include packages/apps/PotatoPlugins/plugins.mk
