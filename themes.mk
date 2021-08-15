@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     FontComfortaaSourceOverlay \
     FontComicSansSourceOverlay \
     FontCoolstorySourceOverlay \
+    FontInterSourceOverlay \
     FontLGSmartGothicSourceOverlay \
     FontMontserratSourceOverlay \
     FontOneplusSansOverlay \
