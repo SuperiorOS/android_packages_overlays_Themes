@@ -15,6 +15,7 @@
 # Accents
 PRODUCT_PACKAGES += \
     AccentColorAmberOverlay \
+    AccentColorAubergineOverlay \
     AccentColorBlueOverlay \
     AccentColorBlueGreyOverlay \
     AccentColorBrownOverlay \
@@ -78,9 +79,13 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
+    AndroidAubergineThemeOverlay \
+    AndroidBakedGreenThemeOverlay \
     AndroidBlackThemeOverlay \
+    AndroidChocoXThemeOverlay \
     AndroidElegantThemeOverlay \
-    AndroidExtendedThemeOverlay
+    AndroidExtendedThemeOverlay \
+    AndroidMaterialOceanThemeOverlay
 
 # Rounded Styles
 PRODUCT_PACKAGES += \
