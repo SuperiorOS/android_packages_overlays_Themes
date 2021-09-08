@@ -381,4 +381,18 @@
     <alias name="goudy" to="comfortaa" />
     <alias name="fantasy" to="comfortaa" />
     <alias name="ITC Stone Serif" to="comfortaa" />
+
+    <family customizationType="new-named-family" name="montserrat">
+        <font weight="400" style="normal">Montserrat.ttf</font>
+    </family>
+    <alias name="montserrat-semi-bold" to="montserrat" weight="600" />
+    <alias name="montserrat-bold" to="montserrat" weight="700" />
+    <alias name="times" to="montserrat" />
+    <alias name="times new roman" to="montserrat" />
+    <alias name="palatino" to="montserrat" />
+    <alias name="georgia" to="montserrat" />
+    <alias name="baskerville" to="montserrat" />
+    <alias name="goudy" to="montserrat" />
+    <alias name="fantasy" to="montserrat" />
+    <alias name="ITC Stone Serif" to="montserrat" />
 </fonts-modification>
