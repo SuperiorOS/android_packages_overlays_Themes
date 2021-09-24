@@ -36,6 +36,12 @@ PRODUCT_PACKAGES += \
     AccentColorElegantGreenOverlay
 
 # Fonts
+$(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/source-sans-pro/fonts.mk)
+
 LOCAL_PATH := packages/overlays/Themes/fonts
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
