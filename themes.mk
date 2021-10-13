@@ -12,29 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Accents
-PRODUCT_PACKAGES += \
-    AccentColorAmberOverlay \
-    AccentColorAubergineOverlay \
-    AccentColorBlueOverlay \
-    AccentColorBlueGreyOverlay \
-    AccentColorBrownOverlay \
-    AccentColorCyanOverlay \
-    AccentColorDeepOrangeOverlay \
-    AccentColorDeepPurpleOverlay \
-    AccentColorGreyOverlay \
-    AccentColorIndigoOverlay \
-    AccentColorLightBlueOverlay \
-    AccentColorLightGreenOverlay \
-    AccentColorLimeOverlay \
-    AccentColorOrangeOverlay \
-    AccentColorPinkOverlay \
-    AccentColorRedOverlay \
-    AccentColorTealOverlay \
-    AccentColorYellowOverlay \
-    AccentColorExtendedGreenOverlay \
-    AccentColorElegantGreenOverlay
-
 # Fonts
 $(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
@@ -77,44 +54,28 @@ PRODUCT_PACKAGES += \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay
 
-# Icon Shapes
-PRODUCT_PACKAGES += \
-    IconShapeCloudyOverlay \
-    IconShapeCylindricalOverlay \
-    IconShapeStretchedOverlay
-
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidAubergineThemeOverlay \
-    AndroidBakedGreenThemeOverlay \
-    AndroidBlackThemeOverlay \
-    AndroidChocoXThemeOverlay \
-    AndroidElegantThemeOverlay \
-    AndroidExtendedThemeOverlay \
-    AndroidMaterialOceanThemeOverlay
-
 # Rounded Styles
-PRODUCT_PACKAGES += \
-    StockRounded \
-    NoneRounded \
-    SlightRounded \
-    MediumRounded \
-    HighRounded \
-    ExtremeRounded
+#PRODUCT_PACKAGES += \
+#    StockRounded \
+#    NoneRounded \
+#    SlightRounded \
+#    MediumRounded \
+#    HighRounded \
+#    ExtremeRounded
 
 # Switch styles
-PRODUCT_PACKAGES += \
-    SwitchAOSP \
-    SwitchAndroid12 \
-    SwitchContained \
-    SwitchTelegram \
-    SwitchRetro \
-    SwitchMD2 \
-    SwitchOOS
+#PRODUCT_PACKAGES += \
+#    SwitchAOSP \
+#    SwitchAndroid12 \
+#    SwitchContained \
+#    SwitchTelegram \
+#    SwitchRetro \
+#    SwitchMD2 \
+#    SwitchOOS
 
 # Stub
 PRODUCT_PACKAGES += \
-    AEXThemesStub
+    SuperiorThemesStub
 
 # Plugins
--include packages/apps/PotatoPlugins/plugins.mk
+#-include packages/apps/PotatoPlugins/plugins.mk

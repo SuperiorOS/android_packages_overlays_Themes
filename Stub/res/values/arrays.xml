@@ -2,12 +2,5 @@
 <resources>
     <string-array name="themes">
         <item>default</item>
-        <item>black</item>
-        <item>elegant</item>
-        <item>extended</item>
-        <item>bakedgreen</item>
-        <item>chocox</item>
-        <item>aubergine</item>
-        <item>materialocean</item>
     </string-array>
 </resources>
