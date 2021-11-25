@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     ZigZagSignalOverlay \
     ZigZagWiFiOverlay
 
+# Navbar
+PRODUCT_PACKAGES += \
+     NavigationBarModeGesturalOverlayFS
+
 # Rounded Styles
 #PRODUCT_PACKAGES += \
 #    StockRounded \
