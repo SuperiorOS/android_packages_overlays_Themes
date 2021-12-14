@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
 
 # Icons
 PRODUCT_PACKAGES += \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusSystemUIOverlay \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSSystemUIOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
     IconPackCircularSettingsOverlay \
