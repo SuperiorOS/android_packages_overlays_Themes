@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
     IconShapeFlowerOverlay \
     IconShapeHeartOverlay \
     IconShapeHexagonOverlay \
+    IconShapeCloudyOverlay \
+    IconShapeCylindricalOverlay \
+    IconShapeStretchedOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquircleOverlay \
