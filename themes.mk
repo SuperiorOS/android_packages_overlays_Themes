@@ -31,13 +31,13 @@ PRODUCT_PACKAGES += \
     FontArvoLatoOverlay \
     FontGoogleSansOverlay \
     FontRubikRubikOverlay \
-    FontAdamCGinora \
-    FontBigNoodle \
-    FontBikoHanken \
-    FontMittelschrift \
-    FontPissel \
-    FontReemKufi \
-    FontRoboto \
+    FontAdamCGinoraOverlay \
+    FontBigNoodleOverlay \
+    FontBikoHankenOverlay \
+    FontMittelschriftOverlay \
+    FontPisselOverlay \
+    FontReemKufiOverlay \
+    FontRobotoOverlay \
     FontAclonicaSourceOverlay \
     FontAmaranteSourceOverlay \
     FontBariolSourceOverlay \
