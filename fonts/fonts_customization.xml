@@ -581,4 +581,8 @@
   <alias name="linotte-semi-bold" to="linotte" weight="600" />
   <alias name="linotte-bold" to="linotte" weight="700" />
 
+  <family customizationType="new-named-family" name="tinkerbell">
+    <font weight="300" style="normal">GearTinkerbell.ttf</font>
+  </family>
+
 </fonts-modification>
