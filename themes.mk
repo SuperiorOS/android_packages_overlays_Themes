@@ -62,22 +62,18 @@ PRODUCT_PACKAGES += \
     IconPackOOSSystemUIOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
-    IconPackCircularSettingsOverlay \
     IconPackCircularSystemUIOverlay \
     IconPackCircularThemePickerOverlay \
     IconPackVictorAndroidOverlay \
     IconPackVictorLauncherOverlay \
-    IconPackVictorSettingsOverlay \
     IconPackVictorSystemUIOverlay \
     IconPackVictorThemePickerOverlay \
     IconPackSamAndroidOverlay \
     IconPackSamLauncherOverlay \
-    IconPackSamSettingsOverlay \
     IconPackSamSystemUIOverlay \
     IconPackSamThemePickerOverlay \
     IconPackKaiAndroidOverlay \
     IconPackKaiLauncherOverlay \
-    IconPackKaiSettingsOverlay \
     IconPackKaiSystemUIOverlay \
     IconPackKaiThemePickerOverlay \
     IconPackPUIAndroidOverlay \
@@ -87,12 +83,10 @@ PRODUCT_PACKAGES += \
     IconPackPUIThemePickerOverlay \
     IconPackFilledAndroidOverlay \
     IconPackFilledLauncherOverlay \
-    IconPackFilledSettingsOverlay \
     IconPackFilledSystemUIOverlay \
     IconPackFilledThemePickerOverlay \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedLauncherOverlay \
-    IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay
 
