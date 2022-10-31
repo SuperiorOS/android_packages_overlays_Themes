@@ -168,7 +168,21 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    BakedGreenSystemOverlay \
+    BakedGreenSystemUIOverlay \
+    ChocoXSystemOverlay \
+    ChocoXSystemUIOverlay \
+    DarkGreySystemOverlay \
+    DarkGreySystemUIOverlay \
+    MaterialOceanSystemOverlay \
+    MaterialOceanSystemUIOverlay \
+    PitchBlackSystemOverlay \
+    PitchBlackSystemUIOverlay \
+    SolarizedDarkSystemOverlay \
+    SolarizedDarkSystemUIOverlay \
+    XtendedClearSystemOverlay \
+    XtendedClearSystemUIOverlay
 
 # UDFPS Animations
 ifeq ($(SUPERIOR_UDFPS_ANIMATIONS),true)
