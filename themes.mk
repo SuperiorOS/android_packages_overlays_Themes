@@ -217,7 +217,9 @@ PRODUCT_PACKAGES += \
 # Themes
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
-    AndroidVividThemeOverlay
+    AndroidVividThemeOverlay \
+    AndroidSnowPaintDropThemeOverlay \
+    AndroidEspressoThemeOverlay
 
 # UDFPS Animations
 ifeq ($(SUPERIOR_UDFPS_ANIMATIONS),true)
