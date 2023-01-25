@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
     IconShapeHexagonOverlay \
     IconShapeCloudyOverlay \
     IconShapeCylindricalOverlay \
+    IconShapeRiceBallsOverlay \
     IconShapeStretchedOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedRectOverlay \
