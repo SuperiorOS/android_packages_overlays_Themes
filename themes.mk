@@ -173,6 +173,13 @@ PRODUCT_PACKAGES += \
     NavbarTecnoCamonOverlay \
     NavbarDoraOverlay
 
+# QS Panel
+PRODUCT_PACKAGES += \
+    QSRoundedRectangle \
+    QSOutline \
+    QSTwoToneAccent \
+    QSShaded
+
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
     BarsSignalOverlay \
