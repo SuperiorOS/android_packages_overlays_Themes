@@ -12,52 +12,99 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Fonts
-$(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/source-sans-pro/fonts.mk)
+# Build some fonts
+PRODUCT_PACKAGES += \
+    ArbutusSlab-Regular.ttf \
+    Barlow-Bold.ttf \
+    Barlow-Medium.ttf \
+    BigShouldersText-Bold.ttf \
+    BigShouldersText-ExtraBold.ttf \
+    Fraunces-Regular.ttf \
+    Fraunces-SemiBold.ttf \
+    GoogleSans-Italic.ttf \
+    GoogleSans-Regular.ttf \
+    Karla-Regular.ttf \
+    Lato-BoldItalic.ttf \
+    Lato-Bold.ttf \
+    Lato-Italic.ttf \
+    Lato-MediumItalic.ttf \
+    Lato-Medium.ttf \
+    Lato-Regular.ttf \
+    Lustria-Regular.ttf \
+    Rubik-BoldItalic.ttf \
+    Rubik-Bold.ttf \
+    Rubik-Italic.ttf \
+    Rubik-MediumItalic.ttf \
+    Rubik-Medium.ttf \
+    Rubik-Regular.ttf \
+    ZillaSlab-MediumItalic.ttf \
+    ZillaSlab-Medium.ttf \
+    ZillaSlab-SemiBoldItalic.ttf \
+    ZillaSlab-SemiBold.ttf 
 
+# Copy fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-#Font Overalys
+# Font Overalys
 PRODUCT_PACKAGES += \
+    FontAclonicaSourceOverlay \
+    FontAmanteSourceOverlay \
+    FontAntipastoProSourceOverlay \
+    FontApiceOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
-    FontGoogleSansOverlay \
-    FontRubikRubikOverlay \
-    FontAdamCGinoraOverlay \
-    FontBigNoodleOverlay \
-    FontBikoHankenOverlay \
-    FontMittelschriftOverlay \
-    FontPisselOverlay \
-    FontReemKufiOverlay \
-    FontRobotoOverlay \
-    FontAclonicaSourceOverlay \
-    FontAmaranteSourceOverlay \
+    FontAudimatOverlay \
     FontBariolSourceOverlay \
+    FontBellotaSourceOverlay \
     FontCagliostroSourceOverlay \
+    FontCoconSourceOverlay \
     FontComfortaaSourceOverlay \
     FontComicSansSourceOverlay \
     FontCoolstorySourceOverlay \
-    FontInterSourceOverlay \
+    FontEvolveSansSourceOverlay \
+    FontExotwoSourceOverlay \
+    FontFifa2018SourceOverlay \
+    FontFucekSourceOverlay \
+    FontGInterOverlay \
+    FontGeometosOverlay \
+    FontGrandHotelSourceOverlay \
+    FontHarmonySansOverlay \
+    FontKaiOverlay \
+    FontLGSmartGothicSourceOverlay \
+    FontLemonMilkSourceOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
-    FontLGSmartGothicSourceOverlay \
-    FontMontserratSourceOverlay \
-    FontOneplusSansOverlay \
-    FontOneplusSlateSource \
+    FontMiSansOverlay \
+    FontNothiingDotOverlay \
+    FontNokiaPureSourceOverlay \
+    FontNunitoSourceOverlay \
+    FontOdudaSourceOverlay \
+    FontOnePlusSansOverlay \
+    FontOneplusSlateSourceOverlay \
+    FontOppoSansOverlay \
+    FontPoppinsSourceOverlay \
+    FontProductSansVHOverlay \
+    FontQuandoSourceOverlay \
+    FontRecursiveLinearOverlay \
+    FontRedressedSourceOverlay \
+    FontReemKufiSourceOverlay \
+    FontRobotoFlexOverlay \
     FontRosemarySourceOverlay \
+    FontRubikRubikOverlay \
+    FontSamOverlay \
     FontSamsungOneSourceOverlay \
+    FontSimpleDaySourceOverlay \
     FontSonySketchSourceOverlay \
+    FontStoropiaSourceOverlay \
     FontSurferSourceOverlay \
-    FontHarmonySansOverlay \
-    FontTinkerbellOverlay
+    FontUbuntuSourceOverlay \
+    FontVictorOverlay \
+    FontGoogleSansClockOverlay \
+    FontGoogleSansOverlay
 
 # Icons
 PRODUCT_PACKAGES += \
