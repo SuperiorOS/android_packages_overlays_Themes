@@ -170,7 +170,8 @@ PRODUCT_PACKAGES += \
     NavbarOnePlusOverlay \
     NavbarOneUiOverlay \
     NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay
+    NavbarTecnoCamonOverlay \
+    NavbarDoraOverlay
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
