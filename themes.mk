@@ -143,7 +143,6 @@ PRODUCT_PACKAGES += \
     IconPackOutlineAndroidOverlay \
     IconPackOutlineSystemUIOverlay \
     IconPackXperiaAndroidOverlay \
-    IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay \
     IconPackPlumpySystemUIOverlay \
     IconPackPlumpyAndroidOverlay \
