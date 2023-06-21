@@ -187,13 +187,6 @@ PRODUCT_PACKAGES += \
     NavbarTecnoCamonOverlay \
     NavbarDoraOverlay
 
-# QS Panel
-PRODUCT_PACKAGES += \
-    QSRoundedRectangle \
-    QSOutline \
-    QSTwoToneAccent \
-    QSShaded
-
 # Statusbar Icons
 PRODUCT_PACKAGES += \
         AquariumSignalOverlay \
@@ -260,10 +253,7 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay \
-    AndroidVividThemeOverlay \
-    AndroidSnowPaintDropThemeOverlay \
-    AndroidEspressoThemeOverlay
+    AndroidBlackThemeOverlay
 
 # UDFPS Animations
 ifeq ($(SUPERIOR_UDFPS_ANIMATIONS),true)
