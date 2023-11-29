@@ -251,16 +251,6 @@ PRODUCT_PACKAGES += \
         NothingDotSignalOverlay \
         SleekSignalOverlay
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
-# UDFPS Animations
-ifeq ($(SUPERIOR_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    UdfpsResources
-endif
-
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     BarsWiFiOverlay \
