@@ -106,52 +106,67 @@ PRODUCT_PACKAGES += \
     FontGoogleSansClockOverlay \
     FontGoogleSansOverlay
 
-# Icons
+# Icon Packs
 PRODUCT_PACKAGES += \
-    IconPackAcherusAndroidOverlay \
-    IconPackAcherusSystemUIOverlay \
-    IconPackOOSAndroidOverlay \
-    IconPackOOSSystemUIOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
+    IconPackCircularSettingsOverlay \
     IconPackCircularSystemUIOverlay \
     IconPackCircularThemePickerOverlay \
     IconPackVictorAndroidOverlay \
     IconPackVictorLauncherOverlay \
+    IconPackVictorSettingsOverlay \
     IconPackVictorSystemUIOverlay \
     IconPackVictorThemePickerOverlay \
     IconPackSamAndroidOverlay \
     IconPackSamLauncherOverlay \
+    IconPackSamSettingsOverlay \
     IconPackSamSystemUIOverlay \
     IconPackSamThemePickerOverlay \
     IconPackKaiAndroidOverlay \
     IconPackKaiLauncherOverlay \
+    IconPackKaiSettingsOverlay \
     IconPackKaiSystemUIOverlay \
     IconPackKaiThemePickerOverlay \
-    IconPackPUIAndroidOverlay \
-    IconPackPUILauncherOverlay \
-    IconPackPUISystemUIOverlay \
-    IconPackPUIThemePickerOverlay \
     IconPackFilledAndroidOverlay \
     IconPackFilledLauncherOverlay \
+    IconPackFilledSettingsOverlay \
     IconPackFilledSystemUIOverlay \
     IconPackFilledThemePickerOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUILauncherOverlay \
+    IconPackPUISettingsOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackPUIThemePickerOverlay \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedLauncherOverlay \
+    IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSLauncherOverlay \
+    IconPackOOSSettingsOverlay \
+    IconPackOOSSystemUIOverlay \
+    IconPackOOSThemePickerOverlay \
     IconPackOutlineAndroidOverlay \
+    IconPackOutlineLauncherOverlay \
+    IconPackOutlineSettingsOverlay \
     IconPackOutlineSystemUIOverlay \
-    IconPackXperiaAndroidOverlay \
-    IconPackXperiaSystemUIOverlay \
-    IconPackPlumpySystemUIOverlay \
-    IconPackPlumpyAndroidOverlay \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusLauncherOverlay \
+    IconPackAcherusSettingsOverlay \
+    IconPackAcherusSystemUIOverlay \
     IconPackAuroraAndroidOverlay \
     IconPackAuroraSystemUIOverlay \
     IconPackGradiconAndroidOverlay \
     IconPackGradiconSystemUIOverlay \
     IconPackLornAndroidOverlay \
-    IconPackLornSystemUIOverlay
+    IconPackLornSystemUIOverlay \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay \
+    IconPackXperiaAndroidOverlay \
+    IconPackXperiaSettingsOverlay \
+    IconPackXperiaSystemUIOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
