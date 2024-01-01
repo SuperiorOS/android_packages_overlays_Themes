@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Black Theme
+PRODUCT_PACKAGES += \
+    BlackThemeOverlay
+
 # Build some fonts
 PRODUCT_PACKAGES += \
     ArbutusSlab-Regular.ttf \
